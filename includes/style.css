@@ -74,3 +74,12 @@ a:hover {
 	font-style: italic;
 
 }
+
+::selection {
+	color:white;
+	background:black;
+}
+::-moz-selection {
+	color:white;
+	background:black;
+}
