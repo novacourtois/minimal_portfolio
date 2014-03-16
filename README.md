@@ -1,4 +1,4 @@
-minimal_portfolio
+Minimal Portfolio
 =================
 
 New Portfolio, redone and minimalized. 
