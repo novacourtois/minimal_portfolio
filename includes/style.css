@@ -10,7 +10,7 @@ html, body, div, a, p {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;
-	color:#ffbbff;
+	color:#333;
 }
 
 li {
@@ -44,7 +44,7 @@ a:hover {
 	border:0px;
 	margin-bottom: 0px;
 	font-size: 3em;
-	text-shadow:3px 3px #222;
+	/*text-shadow:3px 3px #333;*/
 	font-weight: normal;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 
 .work h2 {
 	font-style: italic;
-	color:#222;
+	color:#333;
 
 }
 
