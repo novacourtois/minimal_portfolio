@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 	color:#333;
 }
 
+ul {
+	padding-left: 0px;
+	margin-top:20px;
+}
 li {
 	list-style-type: none;
 	padding-bottom: 8px;
@@ -30,17 +34,13 @@ a:hover {
 	font-style: italic;
 }
 
-.section > h1 {
+h1 {
 	font-weight: 700;
 	display:inline;
 	border-bottom: 3px solid #333;
 }
 
-.section > ul {
-	padding-left:40px;
-}
-
-.section > p, .section > ul {
+.section > p {
 	margin-top:20px;
 }
 
@@ -108,4 +108,8 @@ a:hover {
 	.section > ul {
 		padding-left: 0px;
 	}
+}
+
+.col-sm-6 {
+	padding-left: 0px;
 }

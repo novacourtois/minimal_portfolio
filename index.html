@@ -36,7 +36,7 @@
           <li>I enjoy projects involving programming, robotics, web design / development, making, breaking, hacking, and designing things.</li>
           <li>I use gender-neutral pronouns: they/them/their, please.</li>
       </div>
-      <div class="section">
+      <div class="col-sm-6">
         <h1>Skills</h1>
         <ul>
           <li>Languages:  Python, JavaScript, Java, PHP, MATLAB</li>
@@ -45,7 +45,7 @@
           <li>Hardware: Arduino, Raspberry Pi, Ti Msp430</li>
         </ul>
       </div>
-      <div class="section">
+      <div class="col-sm-6">
         <h1>Contact</h1>
         <ul>
           <li>If you are interested in me working with you, contact me and let's talk.</li>
@@ -74,8 +74,8 @@
       </div>
       <div class="section">
         <h1>Projects</h1>
-        <ul class="work" ng-controller="dataListCtrl">
-          <li ng-repeat="(key,project) in data">
+        <div class="work row" ng-controller="dataListCtrl">
+          <div ng-repeat="(key,project) in data" class="col-sm-4">
             <h2>{{key}}</h2>
             <ul>
               <li ng-repeat="p in project">
@@ -83,8 +83,8 @@
                 <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
               </li>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
     <script src="includes/jquery.min.js"></script>
