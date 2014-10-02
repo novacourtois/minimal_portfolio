@@ -1,0 +1,32 @@
+{
+		"Products and Apps": [
+			{"title":"PISSAR ATX","description":"Web + Android app provides map of Austin's accessible restrooms based on search criteria - location, handicap accessible, gender-neutral. Data collection is crowdsourced. In development."},
+			{"title":"ungender.me","description":"ungender.me is a site + Android app for making text gender-neutral. View it <a href='http://ungender.me'>here</a>."},
+			{"title":"MAL Updater","description":"Python script updates MyAnimeList.net user's 'Currently Watching' and 'Completed' lists based on specified directories. Will add it to my GitHub later."},
+			{"title":"Mstr Crckr","description":"Open source, 3D printable Master Lock cracker with an Arduino, motor, encoder, and linear actuator - for educational purposes. Prototype stage."},
+			{"title":"Lister","description":"Simple 'to do' list running on Heroku built with Flask, Angular, and a Postgres backend."},
+			{"title":"Facebook Anonymizer","description":"Chrome Extension blogging tool anonymizes screenshots of Facebook content, blurring profile pictures and changing names to allow content sharing without privacy concerns. Useful for blogging, privacy concerts, etc. Facebook's code changes frequently, this might need an update. Install it <a href='https://chrome.google.com/webstore/detail/facebook-anonymizer/kmlhhgohmdfogifpecjnamkkcephimnn/'>here</a>."},
+			{"title":"CraigsList: Last Visited","description":"This Chrome Extension adds usability to CraigsList, enabling your browsing to be easier and faster. Install it <a href='https://chrome.google.com/webstore/detail/craigslist-last-visited/mpkmnnbdgbaddfngokdcdojhdakjhenm/'>here</a>."},
+			{"title":"Chrome to Cats","description":"This Chrome Extension makes The Internet a better place by replacing all images with cats. Install it <a href='https://chrome.google.com/webstore/detail/chrome-to-cats/oajkgelibfmlfaelepkgocgpmopbphel/'>here</a>."},
+			{"title":"Your New Tab Page","description":"This Chrome Extension allows you to customize your 'New Tab Page' in your browser to make it cleaner and more productive. I've stopped working on it, but you can install it <a href='https://chrome.google.com/webstore/detail/your-new-tab-page/daeegpekhhgennllidlchmpaamfjhnfk'>here</a>."},
+			{"title":"Facebook Auto-Like Script","description":"Allows you to automatically 'like' posts on your wall on Facebook, and can match against words. Facebook's code changes frequently, this might need an update. Get it <a href='https://github.com/novacourtois/facebook-auto-like'>here</a>."}
+		],
+		"JavaScript / HTML5 Experiments": [
+			{"title":"Dynamic Pie Chart Maker","description":"Allows you to make custom pie charts and download them as an image and data. View it <a href='http://novacourtois.com/piechart/'>here</a>."},
+			{"title":"Polar Clock - JS","description":"A Clock and calendar displayed using Polar Coordinates. View it <a href='http://novacourtois.com/js_polar_clock/'>here</a>."},
+			{"title":"Fractal Trees - JS","description":"Recursive fractal n-trees in JavaScript. View it <a href='http://novacourtois.com/fractalTrees/'>here</a>."},
+			{"title":"Heighway Dragon Curve - JS","description":"Colorful Dragon Spiral implementation using JavaScript. View it <a href='http://novacourtois.com/dragonCurve/'>here</a>."},
+			{"title":"Complete Graph - JS","description":"Complete Graph written in JavaScript. View it <a href='http://novacourtois.com/completeGraph/'>here</a>."},
+			{"title":"Pong - JS game for browsers","description":"Classic Pong game for your browser written in JavaScript. Play it <a href='http://novacourtois.com/pong_js/'>here</a>."},
+			{"title":"Robots and Diamonds game for browsers","description":"Simple 2D game against a CPU. Play it <a href='http://novacourtois.com/robotsAndDiamonds/'>here</a>."},
+			{"title":"Archimedes Spiral - JS","description":"Archimedes Spiral written in JavaScript. View it <a href='http://novacourtois.com/archimedesSpiral/'>here</a>."},
+			{"title":"Lychrel Number Calculator","description":"Lychrel Number Calculator in JavaScript. View it <a href='http://novacourtois.com/lychrel/'>here</a>."}
+		],
+		"Websites": [
+			{"title":"This Site","description":"This is my online portfolio and resume."},
+			{"title":"Gay Bi Gay Gay - Site","description":"Gay Bi Gay Gay is a queer music festival in Austin, TX that happens on the Last day of South By Southwest. I was really glad to volunteer to work with a great teammate on the WordPress site. View it <a href='http://gaybigaygay.com/'>here</a>."},
+			{"title":"UT Mathematics Undergraduate Student Talks Site","description":"Website for the Robotics Club at UT. View it <a href='http://ras.ece.utexas.edu/'>here</a>."},
+			{"title":"UT IEEE Robotics and Automation Society Site","description":""},
+			{"title":"UT Tea Club Site","description":"Website for The Tea Club at UT. View it <a href='http://dsbof.com/'>here</a>."}
+		]
+}

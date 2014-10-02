@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html ng-app="portfolio">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta name="title" content="Nova Courtois | My Portfolio">
   <meta name="description" content="Hi, I'm Nova Courtois. I'm a UT student, programmer, and robotics enthusiast.">
@@ -18,7 +20,6 @@
   <link href="includes/style.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
-
 </head>
 
   <body>
@@ -30,13 +31,10 @@
       </div>
       <div class="section">
         <h1>About</h1>
-       <p class="aboutme">
-        Currently a student at the <span id="ut">University of Texas at Austin</span>, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.
-        <br><br>
-        I enjoy projects involving programming, robotics, web design / development, making, breaking, hacking, and designing things.
-        <br><br>
-        I use gender-neutral pronouns: they/them/their, please.
-      </p>
+        <ul>
+          <li>Currently a student at the <span id="ut">University of Texas at Austin</span>, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.</li>
+          <li>I enjoy projects involving programming, robotics, web design / development, making, breaking, hacking, and designing things.</li>
+          <li>I use gender-neutral pronouns: they/them/their, please.</li>
       </div>
       <div class="section">
         <h1>Skills</h1>
@@ -76,118 +74,13 @@
       </div>
       <div class="section">
         <h1>Projects</h1>
-        <ul class="work">
-          <li>
-            <h2>Products and Apps</h2>
+        <ul class="work" ng-controller="dataListCtrl">
+          <li ng-repeat="(key,project) in data">
+            <h2>{{key}}</h2>
             <ul>
-              <li>
-                <a>PISSAR ATX</a>
-                <p class="description">Web + Android app provides map of Austin's accessible restrooms based on search criteria - location, handicap accessible, gender-neutral. Data collection is crowdsourced. In development.</p>
-              </li>
-              <li>
-                <a>ungender.me</a>
-                <p class="description">ungender.me is a site + Android app for making text gender-neutral. View it <a href="http://ungender.me">here</a>.</p>
-              </li>
-              <li>
-                <a>MAL Updater</a>
-                <p class="description">Python script updates MyAnimeList.net user's 'Currently Watching' and 'Completed' lists based on specified directories. Will add it to my GitHub later.</p>
-              </li>
-              <li>
-                <a>Mstr Crckr</a>
-                <p class="description">Open source, 3D printable Master Lock cracker with an Arduino, motor, encoder, and linear actuator - for educational purposes. Prototype stage.</p>
-              </li>
-              <li>
-                <a>Lister</a>
-                <p class="description">Simple 'to do' list running on Heroku built with Flask, Angular, and a Postgres backend.</p>
-              </li>
-              <li>
-                <a>Facebook Anonymizer</a>
-                <p class="description">Chrome Extension blogging tool anonymizes screenshots of Facebook content, blurring profile pictures and changing names to allow content sharing without privacy concerns. Useful for blogging, privacy concerts, etc. Facebook's code changes frequently, this might need an update. Install it <a href="https://chrome.google.com/webstore/detail/facebook-anonymizer/kmlhhgohmdfogifpecjnamkkcephimnn/">here</a>.</p>
-              </li>
-              <li>
-                <a>CraigsList: Last Visited</a>
-                <p class="description">This Chrome Extension adds usability to CraigsList, enabling your browsing to be easier and faster. Install it <a href="https://chrome.google.com/webstore/detail/craigslist-last-visited/mpkmnnbdgbaddfngokdcdojhdakjhenm/">here</a>.</p>
-              </li>
-              
-              <li>
-                <a>Chrome to Cats</a>
-                <p class="description">This Chrome Extension makes The Internet a better place by replacing all images with cats. Install it <a href="https://chrome.google.com/webstore/detail/chrome-to-cats/oajkgelibfmlfaelepkgocgpmopbphel/">here</a>.</p>
-              </li>
-              <li>
-                <a>Your New Tab Page</a>
-                <p class="description">This Chrome Extension allows you to customize your 'New Tab Page' in your browser to make it cleaner and more productive. I've stopped working on it, but you can install it <a href="https://chrome.google.com/webstore/detail/your-new-tab-page/daeegpekhhgennllidlchmpaamfjhnfk">here</a>.</p>
-              </li>
-              <li>
-                <a>Facebook Auto-Like Script</a>
-                <p class="description">Allows you to automatically 'like' posts on your wall on Facebook, and can match against words. Facebook's code changes frequently, this might need an update. Get it <a href="https://github.com/novacourtois/facebook-auto-like">here</a>.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h2>JavaScript / HTML5 Experiments</h2>
-            <ul>
-              <li>
-                <a>Dynamic Pie Chart Maker</a>
-                <p class="description">Allows you to make custom pie charts and download them as an image and data. View it <a href="http://novacourtois.com/piechart/">here</a>.</p>
-              <li>
-                <a >Polar Clock - JS</a>
-                <p class="description">A Clock and calendar displayed using Polar Coordinates. View it <a href="http://novacourtois.com/js_polar_clock/">here</a>.</p>
-              </li>
-              <li>
-                <a>Fractal Trees - JS</a>
-                <p class="description">Recursive fractal n-trees in JavaScript. View it <a href="http://novacourtois.com/fractalTrees/">here</a>.</p>
-              </li>
-              <li>
-                <a>Heighway Dragon Curve - JS</a>
-                <p class="description">Colorful Dragon Spiral implementation using JavaScript. View it <a href="http://novacourtois.com/dragonCurve/">here</a>.</p>
-              </li>
-              <li>
-                <a>Complete Graph - JS</a>
-                <p class="description">Complete Graph written in JavaScript. View it <a href="http://novacourtois.com/completeGraph/">here</a></p>
-              </li>
-              <li>
-                <a>Pong - JS game for browsers</a>
-                <p class="description">Classic Pong game for your browser written in JavaScript. Play it <a href="http://novacourtois.com/pong_js/">here</a>.</p>
-              </li>
-              <li>
-                <a>Robots and Diamonds game for browsers</a>
-                <p class="description">Simple 2D game against a CPU. Play it <a href="http://novacourtois.com/robotsAndDiamonds/">here</a>.</p>
-              </li>
-              <li>
-                <a>Archimedes Spiral - JS</a>
-                <p class="description">Archimedes Spiral written in JavaScript. View it <a href="http://novacourtois.com/archimedesSpiral/">here</a>.</p>
-              </li>
-              <li>
-                <a>Lychrel Number Calculator</a>
-                <p class="description">Lychrel Number Calculator in JavaScript. View it <a href="http://novacourtois.com/lychrel/">here</a>.</p>
-              </li>
-            </ul>
-          </li>
-          <li><h2>Websites</h2>
-            <ul>
-              <li>
-                <a>This Site</a>
-                <p class="description">This is my online portfolio and resume.</p>
-              </li>
-              <li>
-                <a>Gay Bi Gay Gay - Site</a>
-                <p class="description">Gay Bi Gay Gay is a queer music festival in Austin, TX that happens on the Last day of South By Southwest. I was really glad to volunteer to work with a great teammate on the WordPress site. View it <a href="http://gaybigaygay.com/">here</a>.</p>
-              </li>
-              <li>
-                <a>UT - Texas Secular Humanists Site</a>
-                <p class="description">This parallax scrolling site is made for a great UT student org. View it <a href="http://txhumanists.org/">here</a>.</p>
-              </li>
-              <li>
-                <a>UT Mathematics Undergraduate Student Talks Site</a>
-                <p class="description">This is the website for the unofficial Mathematics Undergraduate Student Talks club at UT. View it <a href="https://www.ma.utexas.edu/users/must/">here</a>.</p>
-              </li>
-              <li>
-                <a>UT IEEE Robotics and Automation Society Site</a>
-                <p class="description">Website for the Robotics Club at UT. View it <a href="http://ras.ece.utexas.edu/">here</a>.</p>
-              </li>
-              <li>
-                <a>UT Tea Club Site</a>
-                <p class="description">Website for The Tea Club at UT. View it <a href="http://dsbof.com/">here</a>.</p>
+              <li ng-repeat="p in project">
+                <a ng-click="showDetails = ! showDetails">{{p.title}}</a>
+                <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
               </li>
             </ul>
           </li>
@@ -196,7 +89,8 @@
     </div>
     <script src="includes/jquery.min.js"></script>
     <script src="includes/bootstrap.min.js"></script>
+    <script src="includes/angular.min.js"></script>
+    <script src="includes/app.js"></script>
     <script src="includes/ready.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 </body>
 </html>
