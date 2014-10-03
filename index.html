@@ -41,7 +41,7 @@
         <ul>
           <li>Languages:  Python, JavaScript, Java, PHP, MATLAB</li>
           <li>Software: Vim, Git, Eclipse, Android SDK, LaTeX, AutoDesk Inventor, Blender</li>
-          <li>Frameworks: Django, Flask, Angular, jQuery, Bootstra, Heroku</li>
+          <li>Frameworks: Django, Flask, Angular, jQuery, Bootstrap, Heroku</li>
           <li>Hardware: Arduino, Raspberry Pi, Ti Msp430</li>
         </ul>
       </div>
@@ -76,9 +76,9 @@
         <h1>Projects</h1>
         <div class="work row" ng-controller="dataListCtrl">
           <div ng-repeat="(key,project) in data" class="col-sm-4">
-            <h2>{{key}}</h2>
+            <h2>{{project.title}}</h2>
             <ul>
-              <li ng-repeat="p in project">
+              <li ng-repeat="p in project.info">
                 <a ng-click="showDetails = ! showDetails">{{p.title}}</a>
                 <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
               </li>
