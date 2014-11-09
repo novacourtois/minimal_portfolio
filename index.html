@@ -24,68 +24,59 @@
 
   <body>
 
-    <div class="container">
-      <div class="page-header section">
-        <h1>Nova Courtois</h1>
-        <h2>// Programming, Tinkering, and Mathematics</h2>
-      </div>
-      <div class="section">
-        <h1>About</h1>
-        <ul>
-          <li>Currently a student at the <span id="ut">University of Texas at Austin</span>, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.</li>
-          <li>I enjoy projects involving programming, robotics, web design / development, making, breaking, hacking, and designing things.</li>
-          <li>I use gender-neutral pronouns: they/them/their, please.</li>
-      </div>
-      <div class="col-sm-6">
-        <h1>Skills</h1>
-        <ul>
-          <li>Languages:  Python, JavaScript, Java, PHP, MATLAB</li>
-          <li>Software: Vim, Git, Eclipse, Android SDK, LaTeX, AutoDesk Inventor, Blender</li>
-          <li>Frameworks: Django, Flask, Angular, jQuery, Bootstrap, Heroku</li>
-          <li>Hardware: Arduino, Raspberry Pi, Ti Msp430</li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <h1>Contact</h1>
-        <ul>
-          <li>If you are interested in me working with you, contact me and let's talk.</li>
-          <li>Email: <script type="text/javascript">
-          //<![CDATA[
-          <!--
-          var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-          "=54){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
-          ".substr(0,ol);}f(\")91,\\\"=2;W430\\\\ o)>m120\\\\]>Srmd%630\\\\rggog^cjo]\\"+
-          "\"\\\\7MNM010\\\\320\\\\620\\\\410\\\\500\\\\300\\\\230\\\\720\\\\MP-R3S010" +
-          "\\\\000\\\\730\\\\300\\\\530\\\\HE:120\\\\700\\\\200\\\\620\\\\710\\\\710\\" +
-          "\\430\\\\~2575?,%9500\\\\i'14:-;>s&%*f+/$)$200\\\\vs410\\\\710\\\\NUTNKMXU7" +
-          "10\\\\[G^XQB410\\\\q120\\\\MO[@700\\\\G130\\\\600\\\\310\\\\LMEkwok5nw}zcv{" +
-          "w\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;2=*" +
-          "y))y+91(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\""+
-          ")"                                                                           ;
-          while(x=eval(x));
-          //-->
-          //]]>
-          </script>
-          </li>
-          <li>LinkedIn: <a href="http://lnkd.in/KzX_HH">Nova Courtois</a></li>
-          <li>GitHub: <a href="https://www.linkedin.com/in/novacourtois">novacourtois</a></li>
-          <li>Twitter: <a href="https://twitter.com/novacourtois">@novacourtois</a></li>
-        </ul>
-      </div>
-      <div class="section">
-        <h1>Projects</h1>
-        <div class="work row" ng-controller="dataListCtrl">
-          <div ng-repeat="(key,project) in data" class="col-sm-4">
-            <h2>{{project.title}}</h2>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-sm-12">
+            <h1>Nova Courtois</h1>
+            <h2>// Programming, Tinkering, and Mathematics</h2>
+          </div>
+          <div class="col-md-3 col-sm-12">
             <ul>
-              <li ng-repeat="p in project.info">
-                <a ng-click="showDetails = ! showDetails">{{p.title}}</a>
-                <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
-              </li>
+              <li>Email: <a href="mailto:novacourtois@utexas.edu?Subject=Portfolio%20Contact" target="_top">
+novacourtois@utexas.edu</a></li>
+              <li>LinkedIn: <a href="http://lnkd.in/KzX_HH">Nova Courtois</a></li>
+              <li>GitHub: <a href="https://www.linkedin.com/in/novacourtois">novacourtois</a></li>
+              <li>Twitter: <a href="https://twitter.com/novacourtois">@novacourtois</a></li>
             </ul>
           </div>
         </div>
       </div>
+    </header>
+
+    <div class="container">
+
+          <div class="row">
+            <h1>About</h1>
+            <ul>
+              <li>Currently a student at the <span id="ut">University of Texas at Austin</span>, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.</li>
+              <li>I enjoy projects involving programming, robotics, web design / development, making, breaking, hacking, and designing things.</li>
+              <li>I use gender-neutral pronouns: they/them/their, please.</li>
+            </ul>
+          </div>
+          <div class="row">
+            <h1>Projects</h1>
+            <div class="work row" ng-controller="dataListCtrl">
+              <div ng-repeat="(key,project) in data" class="col-sm-4">
+                <h2>{{project.title}}</h2>
+                <ul>
+                  <li ng-repeat="p in project.info">
+                    <a ng-click="showDetails = ! showDetails">{{p.title}}</a>
+                    <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h1>Skills</h1>
+            <ul>
+              <li>Languages:  Python, JavaScript, Java, PHP, MATLAB</li>
+              <li>Software: Vim, Git, Eclipse, Android SDK, LaTeX, AutoDesk Inventor, Blender</li>
+              <li>Frameworks: Django, Flask, Angular, jQuery, Bootstrap, Heroku</li>
+              <li>Hardware: Arduino, Raspberry Pi, Ti Msp430</li>
+            </ul>     
+          </div>
     </div>
     <script src="includes/jquery.min.js"></script>
     <script src="includes/bootstrap.min.js"></script>
