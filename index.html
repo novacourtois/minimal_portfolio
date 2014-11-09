@@ -32,52 +32,20 @@
             <h2>// Programming, Tinkering, and Mathematics</h2>
           </div>
           <div class="col-md-3 col-sm-12">
-            <ul>
+            <ul class="contact">
               <li>Email: <a href="mailto:novacourtois@utexas.edu?Subject=Portfolio%20Contact" target="_top">
 novacourtois@utexas.edu</a></li>
               <li>LinkedIn: <a href="http://lnkd.in/KzX_HH">Nova Courtois</a></li>
               <li>GitHub: <a href="https://www.linkedin.com/in/novacourtois">novacourtois</a></li>
               <li>Twitter: <a href="https://twitter.com/novacourtois">@novacourtois</a></li>
+              <li>Projects: <a href="/projects/">/projects/</a></li>
             </ul>
           </div>
         </div>
       </div>
     </header>
 
-    <div class="container">
 
-          <div class="row">
-            <h1>About</h1>
-            <ul>
-              <li>Currently a student at the <span id="ut">University of Texas at Austin</span>, I am pursuing a BS in Mathematics with a concentration in Scientific Computation, a BA in Philosophy, and an Elements of Computing Certificate.</li>
-              <li>I enjoy projects involving programming, robotics, web design / development, making, breaking, hacking, and designing things.</li>
-              <li>I use gender-neutral pronouns: they/them/their, please.</li>
-            </ul>
-          </div>
-          <div class="row">
-            <h1>Projects</h1>
-            <div class="work row" ng-controller="dataListCtrl">
-              <div ng-repeat="(key,project) in data" class="col-sm-4">
-                <h2>{{project.title}}</h2>
-                <ul>
-                  <li ng-repeat="p in project.info">
-                    <a ng-click="showDetails = ! showDetails">{{p.title}}</a>
-                    <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <h1>Skills</h1>
-            <ul>
-              <li>Languages:  Python, JavaScript, Java, PHP, MATLAB</li>
-              <li>Software: Vim, Git, Eclipse, Android SDK, LaTeX, AutoDesk Inventor, Blender</li>
-              <li>Frameworks: Django, Flask, Angular, jQuery, Bootstrap, Heroku</li>
-              <li>Hardware: Arduino, Raspberry Pi, Ti Msp430</li>
-            </ul>     
-          </div>
-    </div>
     <script src="includes/jquery.min.js"></script>
     <script src="includes/bootstrap.min.js"></script>
     <script src="includes/angular.min.js"></script>
