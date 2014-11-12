@@ -2,16 +2,20 @@ html, body {
 	margin:0px;
 	padding:0px;
 	font-size: 1em;
-	background-color: #f3f3f3;
+	background-color: #fff;
 }
 
-html, body, div, a, p {
-	font-family: 'Gentium Book Basic', serif;
+html, body, div, a, p, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	color:#171717;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
-	color:#333;
+	color:#171717;
+}
+
+.fa {
+	color:#fff;
 }
 
 ul {
@@ -27,28 +31,20 @@ li {
 
 a {
 	color:#333;	
+	text-decoration: underline;
 }
 
 a:hover {
-	color:white;
-	background-color: black;
-	text-decoration: none;
+	text-decoration: underline;
 	font-style: italic;
-	padding:6px;
+	font-weight: bold;
+	color:#000;
 }
 
 h1 {
 	font-weight: 700;
 	display:inline;
-	border-bottom: 3px solid #333;
-}
-
-.section > p {
-	margin-top:20px;
-}
-
-.aboutme {
-	padding-left: 40px;
+	border-bottom: 3px solid #2f2f2f;
 }
 
 #ut {
@@ -58,23 +54,21 @@ h1 {
 .description {
 	padding-left:20px;
 	padding-top: 5px;
-	color:#888;
-}
-
-.description a {
-	text-decoration: underline;
-	padding:0px;
-}
-
-.description a:hover {
-	font-style: normal;
-	text-decoration: none;
-	padding:0px;
+	color:#555;
 }
 
 .work h2 {
 	font-style: italic;
 	color:#333;
+}
+
+p.project_title {
+	text-decoration: underline;
+}
+
+p.project_title:hover {
+	font-weight: bold;
+	color: #000;
 }
 
 ::selection {
@@ -106,8 +100,11 @@ h1 {
 .header h2 {
 	color: #f3f3f3;
 	font-style: italic;
+	font-style: italic;
+	font-weight: 300;
 }
 
 .header a {
 	color: #f3f3f3;
+	text-decoration: none;
 }

@@ -1,13 +1,13 @@
-<div class="container">
+<div class="container content">
   <div class="row">
-    <a href="#"> Back to home </a><br>
+    <a href="#">Back to home</a><br>
     <h1>Projects</h1>
-    <div class="work row">
+    <div class="work row" projects>
       <div ng-repeat="(key,project) in data" class="col-sm-4">
         <h2>{{project.title}}</h2>
         <ul>
-          <li ng-repeat="p in project.info">
-            <a ng-click="showDetails = ! showDetails">{{p.title}}</a>
+          <li ng-repeat="p in project.info" ng-init="showDetails = false">
+            <p class="project_title" ng-click="showDetails = ! showDetails">{{p.title}}</p>
             <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
           </li>
         </ul>
