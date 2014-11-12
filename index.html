@@ -20,36 +20,55 @@
   <link href="includes/style.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
-  <body>
-
-    <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9 col-sm-12">
-            <h1>Nova Courtois</h1>
-            <h2>// Programming, Tinkering, and Mathematics</h2>
-          </div>
-          <div class="col-md-3 col-sm-12">
-            <ul class="contact">
-              <li>Email: <a href="mailto:novacourtois@utexas.edu?Subject=Portfolio%20Contact" target="_top">
-novacourtois@utexas.edu</a></li>
-              <li>LinkedIn: <a href="http://lnkd.in/KzX_HH">Nova Courtois</a></li>
-              <li>GitHub: <a href="https://www.linkedin.com/in/novacourtois">novacourtois</a></li>
-              <li>Twitter: <a href="https://twitter.com/novacourtois">@novacourtois</a></li>
-              <li>Projects: <a href="/projects/">/projects/</a></li>
-            </ul>
-          </div>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-12">
+          <h1>Nova Courtois</h1>
+          <h2>// Programming, Tinkering, and Mathematics</h2>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <ul class="contact">
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:novacourtois@utexas.edu?Subject=Portfolio%20Contact" target="_top">
+                novacourtois@utexas.edu
+              </a>
+              </li>
+            <li>
+              <i class="fa fa-linkedin-square"></i>
+              <a href="http://lnkd.in/KzX_HH">Nova Courtois</a>
+            </li>
+            <li>
+              <i class="fa fa-github-square"></i>                
+              <a href="https://github.com/novacourtois">novacourtois</a>
+            </li>
+            <li>
+              <i class="fa fa-twitter-square"></i>
+              <a href="https://twitter.com/novacourtois">@novacourtois</a>
+            </li>
+            <li>
+              <i class="fa fa-code"></i>
+              <a href="#/projects/">/projects/</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+  <div style="padding-top:15px;" ng-view></div>
 
+  <div class="footer">
+  </div>
 
-    <script src="includes/jquery.min.js"></script>
-    <script src="includes/bootstrap.min.js"></script>
-    <script src="includes/angular.min.js"></script>
-    <script src="includes/app.js"></script>
-    <script src="includes/ready.js"></script>
+  <script src="includes/jquery.min.js"></script>
+  <script src="includes/bootstrap.min.js"></script>
+  <script src="includes/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.2.24/angular-route.min.js"></script>
+  <script src="includes/app.js"></script>
+  <script src="includes/ready.js"></script>
 </body>
 </html>
