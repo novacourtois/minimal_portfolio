@@ -26,8 +26,7 @@ li {
 }
 
 a {
-	color:#333;
-	padding:6px;
+	color:#333;	
 }
 
 a:hover {
@@ -35,6 +34,7 @@ a:hover {
 	background-color: black;
 	text-decoration: none;
 	font-style: italic;
+	padding:6px;
 }
 
 h1 {
@@ -84,21 +84,6 @@ h1 {
 ::-moz-selection {
 	color:white;
 	background:black;
-}
-
-@media screen and (max-width: 624px){
-    a:hover {
-        background-color: transparent;
-        color:black;
-        font-style: normal;
-        border-bottom: 2px solid #333;
-    }
-    .aboutme {
-		padding-left: 0px;
-	}
-	.section > ul {
-		padding-left: 0px;
-	}
 }
 
 .col-sm-6 {
