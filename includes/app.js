@@ -8,7 +8,7 @@ angular.module('portfolio',['ngRoute'])
         templateUrl: '/includes/views/info.html'
     }).
     otherwise({
-        redirectTo: ''
+        redirectTo: '/'
     });
 }])
 .controller("dataListCtrl", function($scope, $http) {
