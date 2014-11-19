@@ -1,0 +1,11 @@
+{"items":[
+	{"title":"Dynamic Pie Chart Maker","description":"Allows you to make custom pie charts and download them as an image and data. View it <a href='http://novacourtois.com/piechart/'>here</a>."},
+	{"title":"Polar Clock - JS","description":"A Clock and calendar displayed using Polar Coordinates. View it <a href='http://novacourtois.com/js_polar_clock/'>here</a>."},
+	{"title":"Fractal Trees - JS","description":"Recursive fractal n-trees in JavaScript. View it <a href='http://novacourtois.com/fractalTrees/'>here</a>."},
+	{"title":"Heighway Dragon Curve - JS","description":"Colorful Dragon Spiral implementation using JavaScript. View it <a href='http://novacourtois.com/dragonCurve/'>here</a>."},
+	{"title":"Complete Graph - JS","description":"Complete Graph written in JavaScript. View it <a href='http://novacourtois.com/completeGraph/'>here</a>."},
+	{"title":"Pong - JS game for browsers","description":"Classic Pong game for your browser written in JavaScript. Play it <a href='http://novacourtois.com/pong_js/'>here</a>."},
+	{"title":"Robots and Diamonds game for browsers","description":"Simple 2D game against a CPU. Play it <a href='http://novacourtois.com/robotsAndDiamonds/'>here</a>."},
+	{"title":"Archimedes Spiral - JS","description":"Archimedes Spiral written in JavaScript. View it <a href='http://novacourtois.com/archimedesSpiral/'>here</a>."},
+	{"title":"Lychrel Number Calculator","description":"Lychrel Number Calculator in JavaScript. View it <a href='http://novacourtois.com/lychrel/'>here</a>."}
+]}

@@ -1,0 +1,18 @@
+{
+	"items":[
+		{"title":"Queer Cuties","description":"The first dating app + site that is inclusive of all gender identities and sexual / romantic orientations.", "status":"In Development"},
+		{"title":"PISSAR ATX","description":"Web + Android app provides map of Austin's accessible restrooms based on search criteria - location, handicap accessible, gender-neutral. Data collection is crowdsourced.", "status":"In Development"},
+		{"title":"Melee Matchups","description":"The first match-up analysis site and guide for those who play Super Smash Bros Melee competitively.", "status":"In Development"},
+		{"title":"GARPR","description":"An open source regional ranking system for competitive Super Smash Bros Melee players using the Microsoft TrueSkill Ranking System. I'm working on player performance history.", "status":"In Development"},
+		{"title":"Rest(room) in Peace","description":"Raspberri Pi-powered autonomous apartment restroom plays music through a speaker when occupied to ensure privacy.", "status":"Completed"},
+		{"title":"Facebook Spoilers","description":"A Chrome Extension that allows people to add spoiler tags to their comments and posts. Hover over the blacked-out text to see the spoiler.", "status":"In Development"},
+		{"title":"ungender.me","description":"ungender.me is a site + Android app for making text gender-neutral. View it <a href='http://ungender.me'>here</a>.", "status":"Completed"},
+		{"title":"MAL Updater","description":"Python script updates MyAnimeList.net user's 'Currently Watching' and 'Completed' lists based on specified directories. Will add it to my GitHub later.", "status":"Completed"},
+		{"title":"Mstr Crckr","description":"Open source, 3D printable Master Lock cracker with an Arduino, motor, encoder, and linear actuator - for educational purposes. Prototype stage.", "status":"In Development"},
+		{"title":"Facebook Anonymizer","description":"Chrome Extension blogging tool anonymizes screenshots of Facebook content, blurring profile pictures and changing names to allow content sharing without privacy concerns. Install it <a href='https://chrome.google.com/webstore/detail/facebook-anonymizer/kmlhhgohmdfogifpecjnamkkcephimnn/'>here</a>.", "status":"Completed"},
+		{"title":"CraigsList: Last Visited","description":"This Chrome Extension adds usability to CraigsList, enabling your browsing to be easier and faster. Install it <a href='https://chrome.google.com/webstore/detail/craigslist-last-visited/mpkmnnbdgbaddfngokdcdojhdakjhenm/'>here</a>.", "status":"Completed"},
+		{"title":"Lister","description":"Simple 'to do' list running on Heroku built with Flask, Angular, and a Postgres backend.", "status":"Completed"},
+		{"title":"Your New Tab Page","description":"This Chrome Extension allows you to customize your 'New Tab Page' in your browser to make it cleaner and more productive. I've stopped working on it, but you can install it <a href='https://chrome.google.com/webstore/detail/your-new-tab-page/daeegpekhhgennllidlchmpaamfjhnfk'>here</a>." ,"status":"Completed"},
+		{"title":"Facebook Auto-Like Script","description":"Allows you to automatically 'like' posts on your wall on Facebook, and can match against words. Facebook's code changes frequently, this might need an update. Get it <a href='https://github.com/novacourtois/facebook-auto-like'>here</a>.", "status":"Completed"}
+	]
+}
