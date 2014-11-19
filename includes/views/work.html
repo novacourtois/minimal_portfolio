@@ -1,0 +1,35 @@
+<div class="container content">
+  <div class="row">
+    <a href="#">Back to home</a><br>
+    <h1>All My Work</h1>
+    <div class="work row">
+      <div class="col-sm-4">
+        <h2>Projects</h2>
+        <ul>
+          <li ng-repeat="project in data.projects" ng-init="showDetails = false">
+            <p class="project_title" ng-click="showDetails = ! showDetails">{{project.title}}</p>
+            <p class="description" ng-bind-html="project.description | unsafe" ng-show="showDetails"></p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h2>Me Messing Around</h2>
+        <ul>
+          <li ng-repeat="project in data.other" ng-init="showDetails = false">
+            <p class="project_title" ng-click="showDetails = ! showDetails">{{project.title}}</p>
+            <p class="description" ng-bind-html="project.description | unsafe" ng-show="showDetails"></p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h2>Websites</h2>
+        <ul>
+          <li ng-repeat="project in data.websites" ng-init="showDetails = false">
+            <p class="project_title" ng-click="showDetails = ! showDetails">{{project.title}}</p>
+            <p class="description" ng-bind-html="project.description | unsafe" ng-show="showDetails"></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>          
+</div>

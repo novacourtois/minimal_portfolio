@@ -2,16 +2,16 @@
   <div class="row">
     <a href="#">Back to home</a><br>
     <h1>Projects</h1>
-    <div class="work row" projects>
-      <div ng-repeat="(key,project) in data" class="col-sm-4">
-        <h2>{{project.title}}</h2>
-        <ul>
-          <li ng-repeat="p in project.info" ng-init="showDetails = false">
-            <p class="project_title" ng-click="showDetails = ! showDetails">{{p.title}}</p>
-            <p class="description" ng-bind-html="p.description | unsafe" ng-show="showDetails"></p>
-          </li>
-        </ul>
+    <div class="work row">
+      <div ng-repeat="project in data.items" class="col-md-6 col-sm-12">
+        <div class="project">
+        <div>
+          <h2>{{project.title}}</h2> <span class="status">{{project.status}}</span>
+        </div>
+        <p class="description" ng-bind-html="project.description | unsafe"></p>
+        </div>
       </div>
     </div>
-  </div>          
+  </div>  
+  <p style="margin-top:15px;">Check out all my <a href="#/work">/work/</a>, too!</p>
 </div>
