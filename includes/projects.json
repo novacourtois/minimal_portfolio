@@ -3,7 +3,6 @@
 		{"title":"Queer Cuties","description":"The first dating app + site that is inclusive of all gender identities and sexual / romantic orientations.", "status":"In Development"},
 		{"title":"PISSAR ATX","description":"Web + Android app provides map of Austin's accessible restrooms based on search criteria - location, handicap accessible, gender-neutral. Data collection is crowdsourced.", "status":"In Development"},
 		{"title":"Melee Matchups","description":"The first match-up analysis site and guide for those who play Super Smash Bros Melee competitively.", "status":"In Development"},
-		{"title":"GARPR","description":"An open source regional ranking system for competitive Super Smash Bros Melee players using the Microsoft TrueSkill Ranking System. I'm working on player performance history.", "status":"In Development"},
 		{"title":"Rest(room) in Peace","description":"Raspberri Pi-powered autonomous apartment restroom plays music through a speaker when occupied to ensure privacy.", "status":"Completed"},
 		{"title":"Facebook Spoilers","description":"A Chrome Extension that allows people to add spoiler tags to their comments and posts. Hover over the blacked-out text to see the spoiler.", "status":"In Development"},
 		{"title":"ungender.me","description":"ungender.me is a site + Android app for making text gender-neutral. View it <a href='http://ungender.me'>here</a>.", "status":"Completed"},
